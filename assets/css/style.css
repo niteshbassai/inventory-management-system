@@ -1,0 +1,115 @@
+/* Ensure the body takes full height */
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Basic styling for the header */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Make sure the header stays on top */
+    background-color: #007bff;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #007bff;
+}
+
+.navbar a {
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: #0056b3;
+}
+
+/* Main content styling */
+main {
+    flex: 1; /* Allow the content to grow */
+    padding: 20px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #f8f9fa;
+    color: #6c757d;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Ensure the footer stays at the bottom */
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* For cards in the dashboard */
+.card {
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 10px;
+    background-color: #fff;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.btn {
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* Add some basic responsive styles */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navbar a {
+        padding: 8px;
+    }
+
+    .card {
+        margin-bottom: 15px;
+    }
+}
+
+/* Style for the Logout Button */
+form button[type="submit"] {
+    display: inline-block;
+    background-color: #dc3545;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button[type="submit"]:hover {
+    background-color: #c82333;
+}
