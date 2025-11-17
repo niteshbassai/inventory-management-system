@@ -27,7 +27,7 @@ Make sure you have the following installed on your local machine:
 ### Steps to Run Locally
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/inventory-management-system.git
+   git clone https://github.com/niteshbassai2@gmail.com/inventory-management-system.git
 2. Navigate to the project directory:
 
 cd inventory-management-system
@@ -54,3 +54,4 @@ To access the Admin Dashboard, log in with the credentials provided (admin panel
 Logout is available in the top-right corner of the dashboard.
 
 Add, edit, or delete products using the available buttons.
+
